@@ -1,7 +1,8 @@
 
-function greeting(name) {
-    return `Hello ${name}`
+function greeting(name, last) {
+    return `Hello ${name} ${last}`
 }
 let firstName = "Jim"
-let message = greeting(firstName)
+let lastName = "Lift"
+let message = greeting(firstName, lastName)
 console.log(message);
